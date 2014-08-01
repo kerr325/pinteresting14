@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2'
 # Default Gems
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -26,9 +26,8 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # Added Gems
-
 gem 'bootstrap-sass', '~> 3.2.0.0'
-
+gem 'devise', '~> 3.2.4'
 
 # Databases
 group :development, :test do
